@@ -1,0 +1,42 @@
+  .text-box h3#pinkcol {
+    color: pink;
+  }
+
+  
+  
+  .text-box p#blackcol {
+    color: rgb(0, 255, 0);
+  }
+  
+  .text-box p#greycol  {
+    color: grey;
+  }
+  
+  .text-box div p {
+    color: red;
+  }
+  
+  .text-box p.yellow {
+    color: yellow;
+  }
+
+  ul li {
+    padding: 10px;
+    color: blue;
+  }
+  
+  ul li:hover {
+    background-color: lightgray;
+  }
+  
+  ul li:first-child {
+    color: green;
+  }
+  
+  ul li:last-child {
+    color: red;
+  }
+  
+  ul li:hover {
+    background-color: yellow;
+  }
