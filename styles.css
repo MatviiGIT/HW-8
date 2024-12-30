@@ -1,39 +1,56 @@
-  .text-box h3#pinkcol {
-    color: pink;
-  }
+div h3:nth-child(1)  {
+  color: rgb(255, 0, 212);
+}
 
-  
-  
-  .text-box p#blackcol {
-    color: rgb(0, 255, 0);
-  }
-  
+.text-box p:nth-child(n+3)  {
+  color: rgb(38, 255, 0);
+}
+
   .text-box p#greycol  {
     color: grey;
-  }
-  
-  .text-box div p {
-    color: red;
   }
   
   .text-box p.yellow {
     color: yellow;
   }
 
-  ul li {
-    padding: 10px;
-    color: blue;
+  .text-box p:nth-child(1){
+    color: rgb(255, 0, 0);
+   }
+
+  ul li:nth-child(1) {
+    color: rgb(255, 0, 0);
+  }
+
+  ul li:nth-child(2) {
+    color: rgb(255, 102, 0);
+  }
+
+  ul li:nth-child(3) {
+    color: rgb(43, 255, 0);
+  }
+
+  ul li:nth-child(4) {
+    color: rgb(0, 149, 255);
+  }
+
+  ul li:nth-child(5) {
+    color: rgb(255, 0, 255);
+  }
+
+  ul li:disabled {
+    color: chocolate;
+  }
+
+  ul li:link{
+    color: chocolate;
   }
   
-  ul li:hover {
-    background-color: lightgray;
-  }
-  
-  ul li:first-child {
+  ul li:checked {
     color: green;
   }
   
-  ul li:last-child {
+  ul li:focus {
     color: red;
   }
   
